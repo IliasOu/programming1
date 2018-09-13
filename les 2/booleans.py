@@ -1,7 +1,15 @@
-print(a = 6)
-print(b = 7)
-print c = (a+b) / 2)
-print    (voornaam =  Ilias)
-print   (tussenvoegsel =)
-print     (achternaam = Ouarrich)
-print   (mijnnaam = voornaam + ' ' + achternaam)
+a = 6
+b = 7
+
+c = (a+b) / 2
+
+print (c)
+
+
+voornaam =  'Ilias'
+tussenvoegsel = ' '
+achternaam = 'Ouarrich'
+
+mijnnaam = voornaam + tussenvoegsel + achternaam
+
+print(mijnnaam)

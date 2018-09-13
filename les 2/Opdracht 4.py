@@ -1,13 +1,19 @@
-1. print (75 > a)
-    true
-   print(75 < b)
-   false
+a = 6
+b = 7
 
-2. print(len (mijnnaam)) == len (voornaam + achternaam)
-    true
+print(75 > a)
+print(75 < b)
 
-3. print (len ( mijnnaam)) *5 > len (tussenvoegsel)
-    true
+voornaam =  'Ilias'
+tussenvoegsel = ' '
+achternaam = 'Ouarrich'
 
-4. print (tussenvoegsel in achternaam)
-    false
+mijnnaam = voornaam + tussenvoegsel + achternaam
+
+print((len(mijnnaam)) == len(voornaam + achternaam))
+
+
+print((len(mijnnaam)) *5 > len(tussenvoegsel))
+
+
+print(tussenvoegsel in achternaam)
